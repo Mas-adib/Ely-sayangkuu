@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Ely</title>
+    <link rel="stylesheet" href="css./El.css">
+</head>
+<body>
+    <header>
+        <h1>Untuk Ely Yulia Sari</h1>
+        <p>Tempat curahan isi hati seorang Adib</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Galeri Kenangan</a></li>
+            <li><a href="#letter">Surat Cinta</a></li>
+            <li><a href="#quiz">Quiz Cinta</a></li>
+        </ul>
+    </nav>
+    <main id="home">
+        <section>
+            <h2>Selamat Datang, Ely!</h2>
+            <p>Kamu adalah alasan aku menciptakan tempat ini. Semoga kamu suka!</p>
+        </section>
+    </main>
+    <section id="gallery">
+        <h2>Galeri Kenangan Kita</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Foto 1">
+            <img src="photo2.jpg" alt="Foto 2">
+            <img src="photo3.jpg" alt="Foto 3">
+        </div>
+    </section>
+    <section id="letter">
+        <h2>Surat Cinta</h2>
+        <p id="loveLetter">Klik tombol di bawah untuk membaca surat cintaku untukmu!</p>
+        <button onclick="showLetter()">Baca Surat</button>
+    </section>
+    <section id="quiz">
+        <h2>Quiz Cinta</h2>
+        <p>Ayo, Ely, jawab pertanyaan ini!</p>
+        <p>1. Apa warna kesukaanku?</p>
+        <button onclick="checkAnswer('biru')">Biru</button>
+        <button onclick="checkAnswer('merah')">Merah</button>
+    </section>
+    <footer>
+        <p>Dengan cinta, dari Adib untuk Ely © 2024</p>
+    </footer>
+    <script src="js./El.js"></script>
+</body>
+</html>
